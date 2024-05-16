@@ -1,5 +1,5 @@
 # data structures used to store data in key:value pairs
-# collection that is ordered, changeable and does allow duplicates
+# collection that is ordered, changeable and does NOT allow duplicates
 # written in curly brackets
 
 mydict = {
