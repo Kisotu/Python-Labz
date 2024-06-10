@@ -8,5 +8,10 @@ def user():
 	age = 89
 	return render_template('index.html', first_name = first_name, age = age)
 
+
+@app.route("/home")
+def home():
+	return "Hello user"
+
 if __name__ == "__main__":
 	app.run()
